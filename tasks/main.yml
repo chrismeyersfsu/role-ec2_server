@@ -1,10 +1,4 @@
 ---
-- name: Ensure variables
-  fail: 'msg="Variable {{item}} not defined"'
-  when: "{{ item }} == ''"
-  with_items: ec2_server_required_vars
-  register: result
-
 - name: Launch Instance
   ec2:
     group_id: '{{ ec2_server_security_group }}'
