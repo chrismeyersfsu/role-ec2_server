@@ -1,0 +1,13 @@
+---
+ec2_server_instcount: 1
+ec2_server_instance_type: 'm3.medium'
+# ami ids for "image":
+# Ubuntu 14.04: ami-9a562df2
+# Centos 7: ami-96a818fe
+# Centos 6.5: ami-8997afe0
+# Ubuntu 12.04: ami-2ccc7a44
+ec2_server_image: 'ami-9a562df2'  # Ubuntu 14.04
+ec2_server_ansible_ssh_user: 'ubuntu'
+ec2_server_region: 'us-east-1'
+ec2_server_pem_path: ''
+ec2_server_group_name: 'ec2_server_hosts'

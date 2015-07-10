@@ -1,0 +1,34 @@
+---
+galaxy_info:
+  author: Chris Meyers
+  description: spin up ec2 server
+  company: Ansible
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.9.2
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  # Below are all categories currently available. Just as with
+  # the platforms above, uncomment those that apply to your role.
+  #
+  categories:
+  #- cloud
+  - cloud:ec2
+  #- cloud:gce
+  #- cloud:rax
+  #- clustering
+  #- database
+  #- database:nosql
+  #- database:sql
+  #- development
+  #- monitoring
+  #- networking
+  #- packaging
+  #- system
+  #- web
+dependencies: []
+
